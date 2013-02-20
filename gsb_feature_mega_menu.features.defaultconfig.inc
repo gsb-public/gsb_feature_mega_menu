@@ -268,5 +268,3 @@ function gsb_feature_mega_menu_defaultconfig_strongarm() {
 
   return $export;
 }
-;
-}
