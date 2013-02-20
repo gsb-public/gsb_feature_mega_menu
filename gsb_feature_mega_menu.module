@@ -5,3 +5,22 @@
  */
 
 include_once 'gsb_feature_mega_menu.features.inc';
+
+/**
+ * Implements hook_menu_minipanels_styles().
+ */
+function gsb_feature_mega_menu_menu_minipanels_styles() {
+  $styles = array(
+    'megamenu' => t('Mega menu'),
+  );
+  return $styles;
+}
+
+/**
+ * Implements hook_menu_minipanels_style().
+ */
+function gsb_feature_mega_menu_menu_minipanels_style($menu_config) {
+  // Load the custom styles in the footer but after other things have loaded.
+  drupal_add_js(drupal_get_path('module', 'gsb_feature_mega_menu') . '/js/megamenu_styles.js', array('scope' => 'footer', 'weight' => 100));
+  drupal_add_css(drupal_get_path('module', 'gsb_feature_mega_menu') . '/css/megamenu_styles.css');
+}

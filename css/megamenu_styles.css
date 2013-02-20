@@ -1,0 +1,31 @@
+.qtip-megamenu {
+ left:0px !important;
+ top:77px !important;
+ width: 100% !important;
+ margin:auto;
+}
+
+.qtip-wrapper {
+ width:1170px;
+ margin:auto;
+}
+
+.qtip-contentWrapper {
+ float:right;
+ width:690px;
+}
+
+.qtip-contentWrapper,
+.qtip-contentWrapper p {
+ color:#fff;
+}
+
+.qtip-content .supermenu-row {
+ margin-left: 0;
+}
+
+.administrator .qtip-megamenu,
+.editor .qtip-megamenu,
+.author .qtip-megamenu { 
+ top:130px !important;
+} /* fix for navbar */
