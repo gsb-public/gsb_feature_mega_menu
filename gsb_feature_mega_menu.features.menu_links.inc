@@ -52,7 +52,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
         ),
         'style' => array(
           'tip' => 'none',
-          'name' => 'light',
+          'name' => 'megamenu',
           'width' => array(
             'min' => '0',
             'max' => '250',
@@ -63,7 +63,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
             'radius' => '0',
           ),
         ),
-        'mlid' => '1150',
+        'mlid' => '122',
       ),
       'attributes' => array(
         'title' => '',
@@ -138,7 +138,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
         ),
         'style' => array(
           'tip' => 'none',
-          'name' => 'light',
+          'name' => 'megamenu',
           'width' => array(
             'min' => '0',
             'max' => '250',
@@ -149,7 +149,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
             'radius' => '0',
           ),
         ),
-        'mlid' => '1148',
+        'mlid' => '124',
       ),
       'attributes' => array(
         'title' => '',
@@ -204,7 +204,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
         ),
         'style' => array(
           'tip' => 'none',
-          'name' => 'light',
+          'name' => 'megamenu',
           'width' => array(
             'min' => '0',
             'max' => '250',
@@ -215,7 +215,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
             'radius' => '0',
           ),
         ),
-        'mlid' => '1149',
+        'mlid' => '123',
       ),
       'attributes' => array(
         'title' => '',
@@ -310,7 +310,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
         ),
         'style' => array(
           'tip' => 'none',
-          'name' => 'light',
+          'name' => 'megamenu',
           'width' => array(
             'min' => '0',
             'max' => '250',
@@ -321,7 +321,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
             'radius' => '0',
           ),
         ),
-        'mlid' => '1154',
+        'mlid' => '121',
       ),
       'attributes' => array(
         'title' => '',

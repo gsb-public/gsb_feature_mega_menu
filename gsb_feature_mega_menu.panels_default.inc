@@ -78,6 +78,8 @@ function gsb_feature_mega_menu_default_panels_mini() {
     'style_settings' => array(
       'default' => NULL,
       'contentmain' => NULL,
+      'columnone' => NULL,
+      'columntwo' => NULL,
     ),
   );
   $display->cache = array();
@@ -176,6 +178,8 @@ function gsb_feature_mega_menu_default_panels_mini() {
     'style_settings' => array(
       'default' => NULL,
       'contentmain' => NULL,
+      'columnone' => NULL,
+      'columntwo' => NULL,
     ),
   );
   $display->cache = array();
