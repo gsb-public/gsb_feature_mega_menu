@@ -273,7 +273,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
     'menu_name' => 'main-menu',
     'link_path' => 'node/add/news',
     'router_path' => 'node/add',
-    'link_title' => 'The Stanford GSB Experience',
+    'link_title' => 'Stanford GSB Experience',
     'options' => array(
       'minipanel' => 'the_stanford_gsb_experience',
       'menu_minipanels_hover' => array(
@@ -362,7 +362,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
   t('MBA Program');
   t('Our Programs');
   t('The Faculty');
-  t('The Stanford GSB Experience');
+  t('Stanford GSB Experience');
   t('Why Business School');
 
 
