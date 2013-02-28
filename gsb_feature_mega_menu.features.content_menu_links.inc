@@ -368,5 +368,4 @@ function gsb_feature_mega_menu_content_menu_links_defaults() {
 
   return $menu_links;
 }
-inks;
-}
+
