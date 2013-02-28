@@ -321,7 +321,7 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
             'radius' => '0',
           ),
         ),
-        'mlid' => '121',
+        'mlid' => '129',
       ),
       'attributes' => array(
         'title' => '',
@@ -361,8 +361,8 @@ function gsb_feature_mega_menu_menu_default_menu_links() {
   t('Faculty & Research');
   t('MBA Program');
   t('Our Programs');
-  t('The Faculty');
   t('Stanford GSB Experience');
+  t('The Faculty');
   t('Why Business School');
 
 
