@@ -207,6 +207,26 @@ function gsb_feature_mega_menu_default_panels_mini() {
     $pane->locks = array();
     $display->content['new-4'] = $pane;
     $display->panels['columnone'][0] = 'new-4';
+    $pane = new stdClass();
+    $pane->pid = 'new-5';
+    $pane->panel = 'columntwo';
+    $pane->type = 'fieldable_panels_pane';
+    $pane->subtype = 'fpid:6';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'view_mode' => 'full',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $pane->locks = array();
+    $display->content['new-5'] = $pane;
+    $display->panels['columntwo'][0] = 'new-5';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $mini->display = $display;
