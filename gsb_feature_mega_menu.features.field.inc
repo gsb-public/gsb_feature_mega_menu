@@ -123,6 +123,7 @@ function gsb_feature_mega_menu_field_default_fields() {
             'gsb_event' => 'gsb_event',
             'gsb_media_mention' => 'gsb_media_mention',
             'gsb_news' => 'gsb_news',
+            'gsb_school_story' => 'gsb_school_story',
           ),
         ),
         'target_type' => 'node',
