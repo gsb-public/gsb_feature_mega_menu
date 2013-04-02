@@ -21,7 +21,7 @@ function gsb_feature_mega_menu_default_panels_mini() {
   $mini->contexts = array();
   $mini->relationships = array();
   $display = new panels_display();
-  $display->layout = 'minipanel-two-columns-wide';
+  $display->layout = 'twocol';
   $display->layout_settings = array();
   $display->panel_settings = array(
     'style_settings' => array(
@@ -35,27 +35,6 @@ function gsb_feature_mega_menu_default_panels_mini() {
   $display->title = '';
   $display->content = array();
   $display->panels = array();
-    $pane = new stdClass();
-    $pane->pid = 'new-1';
-    $pane->panel = 'columnone';
-    $pane->type = 'block';
-    $pane->subtype = 'menu_block-1';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 1,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $display->content['new-1'] = $pane;
-    $display->panels['columnone'][0] = 'new-1';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $mini->display = $display;
@@ -87,7 +66,7 @@ function gsb_feature_mega_menu_default_panels_mini() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-2';
+    $pane->pid = 'new-1';
     $pane->panel = 'columnone';
     $pane->type = 'block';
     $pane->subtype = 'menu_block-4';
@@ -105,8 +84,8 @@ function gsb_feature_mega_menu_default_panels_mini() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-2'] = $pane;
-    $display->panels['columnone'][0] = 'new-2';
+    $display->content['new-1'] = $pane;
+    $display->panels['columnone'][0] = 'new-1';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $mini->display = $display;
@@ -136,7 +115,7 @@ function gsb_feature_mega_menu_default_panels_mini() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-3';
+    $pane->pid = 'new-2';
     $pane->panel = 'columnone';
     $pane->type = 'block';
     $pane->subtype = 'menu_block-3';
@@ -154,8 +133,8 @@ function gsb_feature_mega_menu_default_panels_mini() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-3'] = $pane;
-    $display->panels['columnone'][0] = 'new-3';
+    $display->content['new-2'] = $pane;
+    $display->panels['columnone'][0] = 'new-2';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $mini->display = $display;
@@ -187,7 +166,7 @@ function gsb_feature_mega_menu_default_panels_mini() {
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-4';
+    $pane->pid = 'new-3';
     $pane->panel = 'columnone';
     $pane->type = 'block';
     $pane->subtype = 'menu_block-2';
@@ -205,10 +184,10 @@ function gsb_feature_mega_menu_default_panels_mini() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-4'] = $pane;
-    $display->panels['columnone'][0] = 'new-4';
+    $display->content['new-3'] = $pane;
+    $display->panels['columnone'][0] = 'new-3';
     $pane = new stdClass();
-    $pane->pid = 'new-5';
+    $pane->pid = 'new-4';
     $pane->panel = 'columntwo';
     $pane->type = 'fieldable_panels_pane';
     $pane->subtype = 'fpid:6';
@@ -225,8 +204,8 @@ function gsb_feature_mega_menu_default_panels_mini() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-5'] = $pane;
-    $display->panels['columntwo'][0] = 'new-5';
+    $display->content['new-4'] = $pane;
+    $display->panels['columntwo'][0] = 'new-4';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $mini->display = $display;
