@@ -7,7 +7,6 @@ version = 7.x-1.0
 project = gsb_feature_mega_menu
 dependencies[] = block
 dependencies[] = ctools
-dependencies[] = defaultconfig
 dependencies[] = defaultcontent
 dependencies[] = ds
 dependencies[] = entityreference
