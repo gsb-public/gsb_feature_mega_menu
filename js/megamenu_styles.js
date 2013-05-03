@@ -8,7 +8,7 @@
       min: 690,
       max: 690,
     },
-    padding: '37px 41px 30px 25px',
+    padding: '37px 25px 30px',
     border: {
       width: 0,
       radius: 0,
