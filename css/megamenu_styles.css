@@ -6,7 +6,7 @@
 }
 
 .qtip-wrapper {
- width:1170px;
+ width:1170px !important;
  margin:auto;
 }
 
