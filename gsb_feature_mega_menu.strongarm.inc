@@ -21,7 +21,7 @@ function gsb_feature_mega_menu_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_block_1_depth';
-  $strongarm->value = '0';
+  $strongarm->value = '1';
   $export['menu_block_1_depth'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -35,7 +35,7 @@ function gsb_feature_mega_menu_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_block_1_follow';
-  $strongarm->value = 'active';
+  $strongarm->value = 0;
   $export['menu_block_1_follow'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -49,7 +49,7 @@ function gsb_feature_mega_menu_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_block_1_parent';
-  $strongarm->value = 'main-menu:130';
+  $strongarm->value = 'main-menu:7101';
   $export['menu_block_1_parent'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -77,7 +77,7 @@ function gsb_feature_mega_menu_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_block_2_depth';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['menu_block_2_depth'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -105,7 +105,7 @@ function gsb_feature_mega_menu_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_block_2_parent';
-  $strongarm->value = 'main-menu:129';
+  $strongarm->value = 'main-menu:7086';
   $export['menu_block_2_parent'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -133,7 +133,7 @@ function gsb_feature_mega_menu_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_block_3_depth';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['menu_block_3_depth'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -161,7 +161,7 @@ function gsb_feature_mega_menu_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_block_3_parent';
-  $strongarm->value = 'main-menu:132';
+  $strongarm->value = 'main-menu:7091';
   $export['menu_block_3_parent'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -189,7 +189,7 @@ function gsb_feature_mega_menu_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_block_4_depth';
-  $strongarm->value = '0';
+  $strongarm->value = 1;
   $export['menu_block_4_depth'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -217,7 +217,7 @@ function gsb_feature_mega_menu_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_block_4_parent';
-  $strongarm->value = 'main-menu:131';
+  $strongarm->value = 'main-menu:7096';
   $export['menu_block_4_parent'] = $strongarm;
 
   $strongarm = new stdClass();
