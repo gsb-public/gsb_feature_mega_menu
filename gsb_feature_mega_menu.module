@@ -24,3 +24,25 @@ function gsb_feature_mega_menu_menu_minipanels_style($menu_config) {
   drupal_add_js(drupal_get_path('module', 'gsb_feature_mega_menu') . '/js/megamenu_styles.js', array('scope' => 'footer', 'weight' => 100));
   drupal_add_css(drupal_get_path('module', 'gsb_feature_mega_menu') . '/css/megamenu_styles.css');
 }
+
+/**
+ * Implements hook_post_features_revert().
+ * We need to set the parent menus back to environment-based values.
+ */
+function gsb_feature_mega_menu_post_features_revert($component) {
+
+  if ($_ENV['AH_SITE_ENVIRONMENT'] == 'prod') {
+    variable_set('menu_block_1_parent', 'section-12406:11266');
+    variable_set('menu_block_2_parent', 'section-12261:0');
+    variable_set('menu_block_3_parent', 'main-menu:16511');
+    variable_set('menu_block_4_parent', 'main-menu:16566');    
+  }
+
+  if ($_ENV['AH_SITE_ENVIRONMENT'] == 'test2') {
+    variable_set('menu_block_1_parent', 'main-menu:16591');
+    variable_set('menu_block_2_parent', 'section-12261:0');
+    variable_set('menu_block_3_parent', 'main-menu:16511');
+    variable_set('menu_block_4_parent', 'main-menu:16566');    
+  }  
+
+}
