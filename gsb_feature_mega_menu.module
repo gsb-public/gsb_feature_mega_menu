@@ -31,18 +31,11 @@ function gsb_feature_mega_menu_menu_minipanels_style($menu_config) {
  */
 function gsb_feature_mega_menu_post_features_revert($component) {
 
-  if ($_ENV['AH_SITE_ENVIRONMENT'] == 'prod') {
+  if ($_ENV['AH_SITE_ENVIRONMENT'] != 'test') {
     variable_set('menu_block_1_parent', 'section-12406:11266');
     variable_set('menu_block_2_parent', 'section-12261:0');
     variable_set('menu_block_3_parent', 'main-menu:16511');
     variable_set('menu_block_4_parent', 'main-menu:16566');    
   }
-
-  if ($_ENV['AH_SITE_ENVIRONMENT'] == 'test2') {
-    variable_set('menu_block_1_parent', 'main-menu:16591');
-    variable_set('menu_block_2_parent', 'section-12261:0');
-    variable_set('menu_block_3_parent', 'main-menu:16511');
-    variable_set('menu_block_4_parent', 'main-menu:16566');    
-  }  
 
 }
