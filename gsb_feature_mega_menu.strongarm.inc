@@ -237,18 +237,6 @@ function gsb_feature_mega_menu_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'menu_block_ids';
-  $strongarm->value = array(
-    0 => 1,
-    1 => 2,
-    2 => 3,
-    3 => 4,
-  );
-  $export['menu_block_ids'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'menu_block_menu_order';
   $strongarm->value = array(
     'main-menu' => '',
