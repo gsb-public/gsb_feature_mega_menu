@@ -55,7 +55,6 @@ features[variable][] = menu_block_4_level
 features[variable][] = menu_block_4_parent
 features[variable][] = menu_block_4_sort
 features[variable][] = menu_block_4_title_link
-features[variable][] = menu_block_ids
 features[variable][] = menu_block_menu_order
 features[variable][] = menu_minipanels_admin_menu_enabled
 features[variable][] = menu_minipanels_default_callbacks
