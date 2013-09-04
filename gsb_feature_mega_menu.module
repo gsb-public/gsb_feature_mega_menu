@@ -30,17 +30,8 @@ function gsb_feature_mega_menu_menu_minipanels_style($menu_config) {
  * We need to set the parent menus back to environment-based values.
  */
 function gsb_feature_mega_menu_post_features_revert($component) {
-
-  if ($_ENV['AH_SITE_ENVIRONMENT'] != 'test') {
-    variable_set('menu_block_1_parent', 'main-menu:16591');
-    variable_set('menu_block_2_parent', 'section-12261:0');
-    variable_set('menu_block_3_parent', 'main-menu:16511');
-    variable_set('menu_block_4_parent', 'main-menu:16566');
-  }
-
   // Make sure our menu blocks are listed.
   $menu_block_ids = variable_get('menu_block_ids', array());
   $menu_block_ids = array_merge($menu_block_ids, array(1, 2, 3, 4));
   variable_set('menu_block_ids', $menu_block_ids);
-
 }
