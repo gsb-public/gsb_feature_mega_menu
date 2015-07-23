@@ -1,39 +1,12 @@
 .qtip-megamenu {
- left:0px !important;
- top:80px !important;
+ left: 0 !important;
+ top: 65px !important;
  width: 100% !important;
- //margin:auto;
- //width: 690px !important;
- //display: inline-block
-}
-
-@media (min-width: 1170px) {
-  .qtip-wrapper {
-    //width:690px !important;
-   }
-}
-
-@media (max-width: 1169px) {
-  .qtip-wrapper {
-    //min-width:690px
-   }  
-}
-
-
-.qtip-wrapper {
-  //margin:auto;
-  //text-align: right !important
-}
-
-.qtip-contentWrapper {
- //float:right;
- //width:690px;
- //display: inline-block
 }
 
 .qtip-contentWrapper,
 .qtip-contentWrapper p {
- color:#fff;
+ color: #fff;
 }
 
 .qtip-content .supermenu-row {
@@ -42,6 +15,6 @@
 
 .administrator .qtip-megamenu,
 .editor .qtip-megamenu,
-.author .qtip-megamenu { 
- top:130px !important;
+.author .qtip-megamenu {
+ top: 130px !important;
 } /* fix for navbar */
