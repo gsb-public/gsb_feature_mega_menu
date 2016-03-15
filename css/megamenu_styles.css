@@ -4,6 +4,11 @@
  width: 100% !important;
 }
 
+.page-exec-ed .qtip-megamenu,
+.page-seed .qtip-megamenu {
+  top: 78px !important;
+}
+
 .qtip-contentWrapper,
 .qtip-contentWrapper p {
  color: #fff;
