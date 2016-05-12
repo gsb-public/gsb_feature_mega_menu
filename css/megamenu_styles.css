@@ -4,9 +4,12 @@
  width: 100% !important;
 }
 
-.page-exec-ed .qtip-megamenu,
-.page-seed .qtip-megamenu {
+.page-exec-ed .qtip-megamenu {
  top: 81px !important;
+}
+
+.page-seed .qtip-megamenu {
+ top: 79px !important;
 }
 
 .qtip-contentWrapper,
